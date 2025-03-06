@@ -1,0 +1,77 @@
+.App {
+  background-color: #DAD3D3; /* Черный фон */
+  /* justify-content: space-between; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.body {
+  margin-top: 0%;
+  background-color: #DAD3D3; /* Черный фон */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  height: max-content;
+}
+
+.Header{
+  background-color: #DAD3D3; /* Черный фон */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  height: 15vw;
+}
+
+.logo {
+  margin-top: 1vw; 
+  margin-left: 1vw;
+  width: 12vw;
+  height: max-content;
+  object-fit:cover
+}
+.season_image{
+  width: auto;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.season_images{
+  height: 80%;
+  margin-top: 1vw; 
+  /* margin-right: 1vw;  */
+  margin-left: 2.5vw; 
+  display: flex;
+  width: 82.5vw;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.footer{
+  height: 20vw;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.button-create{
+  margin-left: 1vw;
+  width: 12vw;
+  height: 5vw;
+  font-size: 1vw;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+.button-create:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.contacts{
+  margin-left: 3.5vw;
+  font-size: 4vw;
+  color: #DAD3D3;
+  text-align: right;
+}
